@@ -1,0 +1,24 @@
+# See https://github.com/check-spelling/check-spelling/wiki/Configuration-Examples:-excludes
+(?:^|/)(?i)COPYRIGHT
+(?:^|/)(?i)LICEN[CS]E
+(?:^|/)package(?:-lock|)\.json$
+(?:^|/)vendor/
+/Makefile\.am$
+ignore$
+\.avi$
+\.gz$
+\.ico$
+\.jpe?g$
+\.lock$
+\.map$
+\.min\.
+\.mod$
+\.mp[34]$
+\.png$
+\.po$
+\.wav$
+\.zip$
+^docs/extensiondir\.xml\.in$
+^test/mocklibc/src/Makefile\.am$
+^test/polkit/meson\.build$
+^\.github/
